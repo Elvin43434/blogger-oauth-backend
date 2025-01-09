@@ -1,0 +1,14 @@
+{
+  "name": "blogger-oauth-backend", // Projenizin adını buraya girin
+  "version": "1.0.0",
+  "description": "Proje açıklaması", // Projenizin açıklamasını buraya girin
+  "main": "index.js", // Başlangıç dosyanızın adı (genellikle index.js)
+  "scripts": {
+    "start": "node index.js" // Başlangıç komutu
+  },
+  "dependencies": {
+    "express": "^4.18.2", // Örnek bağımlılıklar
+    "googleapis": "^118.0.0",
+    "cors": "^2.8.5"
+  }
+}
